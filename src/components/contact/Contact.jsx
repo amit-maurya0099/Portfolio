@@ -50,16 +50,16 @@ const Contact = () => {
           <div className=' flex flex-col md:flex gap-6'>
             <div className='flex flex-col gap-3 text-lg mt-6 w-full mx-3 '>
               <label >Name</label>
-              <input className='w-[350px]  md:w-full border rounded-lg text-black pl-2 outline-none bg-slate-200' placeholder='Amit Maurya' type="text" name="user_name" ></input>
+              <input className='w-[330px]  md:w-full border rounded-lg text-black pl-2 outline-none bg-slate-200' placeholder='Amit Maurya' type="text" name="user_name" ></input>
             </div>
-            <div className='flex flex-col gap-3 text-lg pl-3'>
+            <div className='lex flex-col gap-3 text-lg  w-full mx-3 '>
               <label>Email</label>
-              <input className='w-[350px] md:w-full border rounded-lg text-black pl-3 outline-none bg-slate-200' placeholder='amit@gmail.com'  type="email" name="user_email" ></input>
+              <input className='w-[330px] md:w-full border rounded-lg text-black pl-2 outline-none bg-slate-200' placeholder='amit@gmail.com'  type="email" name="user_email" ></input>
             </div>
           </div>
           <div className='flex flex-col text-lg gap-3 '>
             <label className='pl-3'>Textarea</label>
-            <textarea placeholder='Enter your Message' className='pl-2 ml-2 outline-none rounded-lg bg-slate-200 text-black h-[200px] w-[350px] md:w-full'  name="message" ></textarea>
+            <textarea placeholder='Enter your Message' className='pl-2 ml-2 outline-none rounded-lg bg-slate-200 text-black h-[200px] w-[330px] md:w-full'  name="message" ></textarea>
           </div>
           <div className='flex justify-center mt-4 md:ml-2'>
           <button className='w-[90%] md:w-[100%] py-2 bg-designColor text-black text-lg rounded-lg text-center' type="submit">Submit</button>
