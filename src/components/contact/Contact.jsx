@@ -12,7 +12,7 @@ const Contact = () => {
      const public_key=import.meta.env.VITE_PUBLIC_KEY;
    
      const form = useRef();
-
+  
      const sendEmail = (e) => {
        e.preventDefault();
    
@@ -52,7 +52,7 @@ const Contact = () => {
               <label >Name</label>
               <input className='w-[330px]  md:w-full border rounded-lg text-black pl-2 outline-none bg-slate-200' placeholder='Amit Maurya' type="text" name="user_name" ></input>
             </div>
-            <div className='lex flex-col gap-3 text-lg  w-full mx-3 '>
+            <div className='flex flex-col gap-3 text-lg w-full mx-3 '>
               <label>Email</label>
               <input className='w-[330px] md:w-full border rounded-lg text-black pl-2 outline-none bg-slate-200' placeholder='amit@gmail.com'  type="email" name="user_email" ></input>
             </div>
