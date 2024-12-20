@@ -7,9 +7,9 @@ import { toast } from 'react-toastify';
 const Contact = () => {
 
   
-     const service_Id= "service_q63hztg";
-     const template_Id= "template_360hg7p";
-     const public_key="Yy7cY_NnUkihCcoG_"
+     const service_Id=import.meta.env.VITE_SERVICE_ID;
+     const template_Id=import.meta.env.VITE_TEMPLATE_ID;
+     const public_key=import.meta.env.VITE_PUBLIC_KEY;
    
      const form = useRef();
 
