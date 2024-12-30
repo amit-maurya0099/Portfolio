@@ -28,7 +28,7 @@ const Projects = () => {
           des="  A feature-rich online shopping platform offering product search, secure payment gateway integration, user authentication, and a seamless shopping cart experience. Built for scalability and optimized for modern e-commerce needs"
           src={projectTwo}
           github={"https://github.com/amit-maurya0099/E-Commerce_deployed"}
-          deployed={"https://e-commerce-frontend-topaz-five.vercel.app"}
+          deployed={"https://e-commerce-deployed.vercel.app"}
         />
         <ProjectsCard
           title="Netflix-Gemini"
