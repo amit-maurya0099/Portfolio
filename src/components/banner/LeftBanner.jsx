@@ -30,7 +30,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        A dedicated Full Stack Developer who thrives on transforming complex ideas into user-friendly digital experiences.
+        A dedicated Full Stack Developer who thrives on transforming complex ideas into user-friendly digital experiences. With a strong background in both front-end and back-end development, I enjoy working collaboratively to bring ambitious projects to life and help businesses achieve their digital goals.
         </p>
         
       </div>
