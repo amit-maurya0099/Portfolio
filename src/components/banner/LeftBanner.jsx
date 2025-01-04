@@ -35,7 +35,7 @@ const LeftBanner = () => {
         
       </div>
        <div className="-my-10 ">
-       <a href="https://drive.google.com/file/d/1l8f7ti3myudNASyQEvlG1FhJ-YMm_2SX/view?usp=sharing"><button className="text-lg border border-black text-black bg-designColor px-4 py-2 rounded-xl " >
+       <a href="https://drive.google.com/file/d/1PODGge4tc_JFYEYiSEp8s27VRPXo0SqF/view?usp=sharing"><button className="text-lg border border-black text-black bg-designColor px-4 py-2 rounded-xl " >
           Download CV
         </button></a> </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
