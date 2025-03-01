@@ -12,14 +12,14 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007-2025</p>
+          <p className="text-sm text-cyan-500 tracking-[4px]">2007-2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education </h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="B.tech in Electronics & Communication Engineering"
             subTitle="Madan Mohan Malaviya University of Technology (2021-25)"
-            result="8.05/10"
+            result="8.17/10"
             des="MMMUT is renowned for academic excellence, innovation, and vibrant campus life. Offering diverse programs and fostering holistic development, it provided me with theoretical knowledge, practical skills, and leadership opportunities, shaping my professional and personal growth."
           />
           <ResumeCard
@@ -40,7 +40,7 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2024-current</p>
+          <p className="text-sm text-cyan-500 tracking-[4px]">2024-current</p>
           <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">

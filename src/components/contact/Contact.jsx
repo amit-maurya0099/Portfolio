@@ -62,7 +62,7 @@ const Contact = () => {
             <textarea placeholder='Enter your Message' className='pl-2 ml-2 outline-none rounded-lg bg-slate-200 text-black h-[200px] w-[330px] md:w-full'  name="message" ></textarea>
           </div>
           <div className='flex justify-center mt-4 md:ml-2'>
-          <button className='w-[90%] md:w-[100%] py-2 bg-designColor text-black text-lg rounded-lg text-center' type="submit">Submit</button>
+          <button className='w-[90%] md:w-[100%] py-2 bg-cyan-500 text-black text-lg rounded-lg text-center' type="submit">Submit</button>
           </div>
           
           

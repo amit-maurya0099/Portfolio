@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <div className="w-[100%] h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <p className='font-bold text-4xl text-[#FF014F]'>Amit</p>
+        <p className='font-bold text-4xl text-cyan-500'>Amit</p>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-cyan-400 duration-300"
               key={_id}
             >
               <Link

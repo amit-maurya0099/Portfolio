@@ -26,7 +26,7 @@ const Resume = () => {
             }
             className={`${
               educationData
-                ? "border-designColor rounded-lg"
+                ? "border-cyan-500 rounded-lg"
                 : "border-transparent"
             } resumeLi`}
           >
@@ -40,7 +40,7 @@ const Resume = () => {
               setAchievementData(false)
             }
             className={`${
-              skillData ? "border-designColor rounded-lg" : "border-transparent"
+              skillData ? "border-cyan-500 rounded-lg" : "border-transparent"
             } resumeLi`}
           >
             Professional Skills
@@ -54,7 +54,7 @@ const Resume = () => {
             }
             className={`${
               experienceData
-                ? "border-designColor rounded-lg"
+                ? "border-cyan-500 rounded-lg"
                 : "border-transparent"
             } resumeLi`}
           >
@@ -69,7 +69,7 @@ const Resume = () => {
             }
             className={`${
               achievementData
-                ? "border-designColor rounded-lg"
+                ? "border-cyan-500 rounded-lg"
                 : "border-transparent"
             } resumeLi `}
           >
@@ -86,4 +86,4 @@ const Resume = () => {
   );
 }
 
-export default Resume
+export default Resume;

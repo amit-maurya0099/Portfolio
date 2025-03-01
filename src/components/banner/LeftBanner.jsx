@@ -19,7 +19,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className=" text-4xl md:text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize ">Amit Maurya</span>
+          Hi, I'm <span className="text-cyan-500 capitalize ">Amit Maurya</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -35,7 +35,7 @@ const LeftBanner = () => {
         
       </div>
        <div className="-my-10 ">
-       <a href="https://drive.google.com/file/d/1PODGge4tc_JFYEYiSEp8s27VRPXo0SqF/view?usp=sharing"><button className="text-lg border border-black text-black bg-designColor px-4 py-2 rounded-xl " >
+       <a href="https://drive.google.com/file/d/1mKNHAasy3i2Azr32uFCDjp-ZBXQE26Gj/view"><button className="text-lg border border-black text-black bg-cyan-500 px-4 py-2 rounded-xl " >
           Download CV
         </button></a> </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

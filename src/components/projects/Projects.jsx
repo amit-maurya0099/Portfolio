@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFive,projectFour } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFive,projectFour,projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,6 +16,13 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <ProjectsCard
+          title="GitTogether"
+          des="GitTogether is a collaborative platform for developers to connect, team up, and build projects together. It offers seamless project collaboration, real-time chat, and a community-driven workspace to enhance teamwork and innovation."
+          src={projectSix}
+          github={"https://github.com/amit-maurya0099/gitTogether_aws"}
+          deployed={"http://51.21.2.211"}
+        />
         <ProjectsCard
           title="Hospital Management System"
           des="A comprehensive web application for managing patient records, appointments, and staff details efficiently. Includes authentication, role-based access, and user-friendly dashboards for seamless hospital operations and patient care"

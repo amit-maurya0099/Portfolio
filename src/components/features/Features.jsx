@@ -10,6 +10,9 @@ import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
+import { SiSocketdotio } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
+import { SiMysql } from "react-icons/si";
 
 const Features = () => {
   return (
@@ -67,6 +70,21 @@ const Features = () => {
           title="Tailwind CSS"
           des="Streamlining UI development with utility-first classes for creating modern, responsive, and consistent designs quickly and effectively"
           icon={<SiTailwindcss />}
+        />
+        <Card
+          title="Websocket(Socket.io)"
+          des="WebSockets enable real-time, full-duplex communication between a client and a server over a single, persistent connection."
+          icon={<SiSocketdotio />}
+        />
+           <Card
+          title="SQL"
+          des="SQL (Structured Query Language) is used to manage and manipulate relational databases by performing operations like querying, updating, inserting, and deleting data."
+          icon={<BsFiletypeSql />}
+        />
+           <Card
+          title="MySQL"
+          des="MySQL is an open-source relational database management system (RDBMS) known for its speed, reliability, and scalability."
+          icon={<SiMysql />}
         />
       </div>
     </section>

@@ -10,7 +10,7 @@ const Card = ({title,des,icon}) => {
           <div className=" flex justify-center items-center ">
         
             {icon ? (
-              <span className=" mx-28 text-[60px] md:text-[100px]  text-designColor">{icon}</span>
+              <span className=" mx-28 text-[60px] md:text-[100px]  text-cyan-500">{icon}</span>
             ) : (
               <>
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
