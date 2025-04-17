@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFive,projectFour,projectSix } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFive,projectFour,projectSix,projectSeven } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,6 +16,14 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <ProjectsCard
+          title="PrepVerse"
+          des="Built an AI-powered mock interview platform using Next.js, Vapi, and Gemini API, enabling real-time voice-based interviews with instant feedback. Integrated Firebase for authentication and data storage, and crafted a responsive UI with Tailwind CSS and Radix UI."
+          src={projectSeven}
+          github={"https://github.com/amit-maurya0099/prepverse"}
+          deployed={"https://prepverse-eta.vercel.app/"}
+        />
+
       <ProjectsCard
           title="GitTogether"
           des="GitTogether is a collaborative platform for developers to connect, team up, and build projects together. It offers seamless project collaboration, real-time chat, and a community-driven workspace to enhance teamwork and innovation."
